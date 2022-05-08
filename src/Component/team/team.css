@@ -1,0 +1,10 @@
+.team{
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.team div{
+    padding: 23px;
+    height: 100%;
+}

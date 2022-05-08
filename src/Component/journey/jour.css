@@ -1,0 +1,26 @@
+.journey{
+    width: 1000px !important;
+    background-image: url('../images/grasspic.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+.johead div{
+    display: flex;
+    flex-direction: column;
+}
+.journey h2{
+    font-size: 44px;
+    color: white;
+ margin-top: 54px;
+}
+
+.journey div {
+  color: white;
+}
+.journey div h3{
+    font-size: 34px;
+}
+.journey div p{
+    font-size: 18px;
+}

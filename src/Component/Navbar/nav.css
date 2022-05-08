@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav div{
+    padding: 10px;
+}
+.nav .midd ul{
+    display: flex;
+    justify-content: center;
+
+}
+ul li,
+.last p{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+     
+}
+ul li:hover{
+    animation: anim 3s alternate ;
+}
+@keyframes anim {
+    0%{
+       border-bottom: 3px solid white;
+    }
+    100%{
+        border-bottom: 3px solid black;
+
+    }
+}
+.nav .top img{
+   width: 74px;
+   height: 66px;
+}
